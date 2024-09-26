@@ -94,17 +94,17 @@ body{
 }
 
 .social-icon:hover {
-    color: #FFD700; /* Cambia a color dorado al hacer hover */
-    transform: scale(1.3); /* Agranda el icono un 30% */
+    color: #FFD700;
+    transform: scale(1.3); 
 }
 
 
 footer {
-    background-color: #380202; /* Rojo oscuro similar al fondo */
+    background-color: #380202; 
 }
 
 footer h5 {
-    color: #FBE1A1; /* Color beige */
+    color: #FBE1A1; 
 }
 
 footer a {
@@ -119,13 +119,13 @@ footer p{
 }
 
 footer a:hover {
-    color: #FFD700; /* Color dorado en hover */
+    color: #FFD700;
 }
 
 
 h2 {
     font-family: 'Squada One', sans-serif;
-    color: #ff6347; /* Color tomate */
+    color: #ff6347; 
     font-size: 3rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   }
@@ -135,7 +135,7 @@ h2 {
     line-height: 1.8;
     color: #333;
   }
-  /* Botón personalizado */
+  
   .btn-primary {
     background-color: #ff6347;
     border: none;
@@ -147,14 +147,16 @@ h2 {
     background-color: #e55337;
     transform: scale(1.05);
   }
-  /* Efecto en la imagen */
+
+
   .img-fluid {
     transition: transform 0.3s ease-in-out;
   }
   .img-fluid:hover {
     transform: scale(1.05);
   }
-  /* Efecto de animación con CSS puro */
+
+
   @keyframes fadeInUp {
     0% {
       opacity: 0;
